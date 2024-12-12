@@ -1,0 +1,464 @@
+2024-12-11 10:18:05,654 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:18:05,654 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-12-11 10:18:09,060 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:18:09,061 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-11 10:20:38,186 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:20:38,186 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-12-11 10:20:40,758 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:20:40,758 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-11 10:22:51,191 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:22:51,191 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-12-11 10:22:53,966 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:22:53,966 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-11 10:22:55,486 - INFO - Received message: hi
+2024-12-11 10:22:57,005 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:22:57,005 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 10:22:57,015 - INFO - Received message: hellou!
+2024-12-11 10:22:57,117 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:22:57,118 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 10:24:33,092 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:24:33,092 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-12-11 10:24:35,562 - INFO - Use pytorch device_name: cuda
+2024-12-11 10:24:35,562 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-11 10:24:37,026 - INFO - Received message: hi
+2024-12-11 10:24:37,105 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:24:37,105 - INFO - Response: "Hello."
+2024-12-11 10:24:38,026 - INFO - Received message: hellou!
+2024-12-11 10:24:38,111 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:24:38,111 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 10:24:39,036 - INFO - Received message: hellou:)
+2024-12-11 10:24:39,082 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:24:39,082 - INFO - Response: "Hello."
+2024-12-11 10:24:40,046 - INFO - Received message: okay who directed titanic?
+2024-12-11 10:24:41,100 - INFO - Response: I found multiple entities in your message, please try again and ask about one movie only!
+2024-12-11 10:24:42,066 - INFO - Received message: who is the director of titanic?
+2024-12-11 10:24:43,124 - INFO - Movie: Titanic, Relation: director
+2024-12-11 10:24:43,124 - INFO - Response: It seems there are several entries for Titanic:
+1. 1953 film by Jean Negulesco
+2. 1943 German propaganda film
+3. 1997 American romantic disaster film directed by James Cameron
+4. 1996 TV miniseries directed by Robert Lieberman
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:24:44,086 - INFO - Received message: 3
+2024-12-11 10:24:45,096 - INFO - Movie: Q44578, Relation: P57
+2024-12-11 10:24:45,320 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:24:45,320 - INFO - Response: James Cameron was the director of the film Titanic.
+2024-12-11 10:25:14,655 - INFO - Received message: who is the director of titanic?
+2024-12-11 10:25:14,723 - INFO - Movie: Titanic, Relation: director
+2024-12-11 10:25:14,723 - INFO - Response: It seems there are several entries for Titanic:
+1. 1953 film by Jean Negulesco
+2. 1943 German propaganda film
+3. 1997 American romantic disaster film directed by James Cameron
+4. 1996 TV miniseries directed by Robert Lieberman
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:25:21,837 - INFO - Received message: 4
+2024-12-11 10:25:21,847 - INFO - Movie: Q1426605, Relation: P57
+2024-12-11 10:25:21,916 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:25:21,917 - INFO - Response: Robert Lieberman was the director of Titanic.
+2024-12-11 10:30:30,907 - INFO - Received message: Who is the director of Forrest Gump? 
+2024-12-11 10:30:30,975 - INFO - Movie: Forrest Gump, Relation: director
+2024-12-11 10:30:30,975 - INFO - Movie: Q134773, Relation: P57
+2024-12-11 10:30:32,787 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:30:32,787 - INFO - Response: Robert Zemeckis directed Forrest Gump.
+2024-12-11 10:30:51,271 - INFO - Received message: Show me a picture of Halle Berry.
+2024-12-11 10:30:51,407 - INFO - Response: image:3890/rm2201471744 Here's an impressive snapshot of Halle Berry.
+2024-12-11 10:31:12,867 - INFO - Received message: Can you tell me the publication date of Tom Meets Zizou?
+2024-12-11 10:31:12,940 - INFO - Movie: Tom Meets Zizou, Relation: publication date
+2024-12-11 10:31:12,940 - INFO - Movie: Q1410031, Relation: P577
+2024-12-11 10:31:13,026 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:31:13,026 - INFO - Response: The publication date of Tom Meets Zizou was in 2010. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.04 and an answer distribution of 0 supporting and 3 rejecting votes.)
+2024-12-11 10:31:13,928 - INFO - Received message: Who is the director of Forrest Gump?
+2024-12-11 10:31:13,988 - INFO - Movie: Forrest Gump, Relation: director
+2024-12-11 10:31:13,988 - INFO - Movie: Q134773, Relation: P57
+2024-12-11 10:31:14,062 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:31:14,063 - INFO - Response: Robert Zemeckis directed Forrest Gump.
+2024-12-11 10:31:49,842 - INFO - Received message: Show me a picture of Halle Berry
+2024-12-11 10:31:49,980 - INFO - Response: image:0283/rm66951168 Behold this captivating image of Halle Berry!
+2024-12-11 10:32:07,360 - INFO - Received message: Can you tell me the publication date of Tom Meets Zizou?
+2024-12-11 10:32:07,429 - INFO - Movie: Tom Meets Zizou, Relation: publication date
+2024-12-11 10:32:07,429 - INFO - Movie: Q1410031, Relation: P577
+2024-12-11 10:32:07,514 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:32:07,515 - INFO - Response: The publication date of Tom Meets Zizou was in 2010. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.04 and an answer distribution of 0 supporting and 3 rejecting votes.)
+2024-12-11 10:32:24,872 - INFO - Received message: did christopher nolan direct inception?
+2024-12-11 10:32:24,998 - INFO - Response: I could not find any relation in your message, please try again and reformulate.
+2024-12-11 10:32:56,789 - INFO - Received message: Who is the director of Forrest Gump? 
+2024-12-11 10:32:56,857 - INFO - Movie: Forrest Gump, Relation: director
+2024-12-11 10:32:56,857 - INFO - Movie: Q134773, Relation: P57
+2024-12-11 10:32:56,930 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:32:56,930 - INFO - Response: Robert Zemeckis directed Forrest Gump.
+2024-12-11 10:33:36,921 - INFO - Received message: Who directed Frozen?
+2024-12-11 10:33:36,992 - INFO - Movie: Frozen, Relation: director
+2024-12-11 10:33:36,993 - INFO - Response: It seems there are several entries for Frozen:
+1. 2005 British film
+2. 2010 American psychological horror film directed by Adam Green
+3. 2013 American computer animated film
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:33:48,211 - INFO - Received message: recommend me movies like cars and scary movie?
+2024-12-11 10:33:49,759 - INFO - Response: image:1102/rm2526678528
+How about watching Buffalo Bill and the Indians, or Sitting Bull's History Lesson, Buffalo '66 and Wanted: Dead or Alive? It's worth your time.
+
+You wonder why? They share the following attributes:
+ - original language of film or TV show: English
+ - distribution format: video on demand
+ - color: color
+ - country of origin: United States of America
+ - distributed by: Netflix
+2024-12-11 10:35:01,676 - INFO - Received message: when was Pocahontas released?
+2024-12-11 10:35:01,677 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:37:49,046 - INFO - Received message: who is the director of movie tell?
+2024-12-11 10:37:49,109 - INFO - Movie: Tell, Relation: director
+2024-12-11 10:37:49,109 - INFO - Movie: Q18703035, Relation: P57
+2024-12-11 10:37:49,188 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:37:49,188 - INFO - Response: The film's director is J.M.R. Luna.
+2024-12-11 10:43:53,780 - INFO - Received message: Who is tom cruise
+2024-12-11 10:43:53,903 - INFO - Response: image:0428/rm286945792 Check out this amazing picture of Tom Cruise.
+2024-12-11 10:44:25,877 - INFO - Received message: Recommend movies similar to Hamlet and Othello
+2024-12-11 10:44:25,940 - INFO - Response: It seems there are several entries for Hamlet:
+1. 2000 film by Michael Almereyda
+2. 1990 film by Franco Zeffirelli
+3. 1964 film by Grigori Kozintsev
+4. 1996 film by Kenneth Branagh
+5. 1948 film by Laurence Olivier
+6. 2009 TV film directed by Gregory Doran
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:44:33,111 - INFO - Received message: Recommend movies similar to Hamlet and Othello
+2024-12-11 10:44:33,173 - INFO - Response: It seems there are several entries for Hamlet:
+1. 2000 film by Michael Almereyda
+2. 1990 film by Franco Zeffirelli
+3. 1964 film by Grigori Kozintsev
+4. 1996 film by Kenneth Branagh
+5. 1948 film by Laurence Olivier
+6. 2009 TV film directed by Gregory Doran
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:44:46,577 - INFO - Received message: Recommend movies similar to Hamlet and Othello.
+2024-12-11 10:44:46,639 - INFO - Response: It seems there are several entries for Hamlet:
+1. 2000 film by Michael Almereyda
+2. 1990 film by Franco Zeffirelli
+3. 1964 film by Grigori Kozintsev
+4. 1996 film by Kenneth Branagh
+5. 1948 film by Laurence Olivier
+6. 2009 TV film directed by Gregory Doran
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:45:02,115 - INFO - Received message: 3.
+2024-12-11 10:45:02,124 - INFO - Response: Unfortunately, I need more information still. It seems there are several entries for Othello:
+1. 1995 film by Oliver Parker
+2. 1965 film by Stuart Burge
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:45:13,488 - INFO - Received message: 2.
+2024-12-11 10:45:15,042 - INFO - Response: You might really like Buffalo '66, What We Wanted and Linger, give it a watch!
+
+You wonder why? They share the following attributes:
+ - genre: drama
+2024-12-11 10:45:33,724 - INFO - Received message: What does Will Smith look like.
+2024-12-11 10:45:33,861 - INFO - Response: It seems there are several entries for Will Smith:
+1. British comedian, actor, author and screenwriter
+2. American actor, film producer, and rapper
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:45:49,224 - INFO - Received message: 2.
+2024-12-11 10:45:49,235 - INFO - Response: image:2237/rm1817162752 Enjoy this image of Will Smith.
+2024-12-11 10:45:52,311 - INFO - Received message: What does Will Smith look like.
+2024-12-11 10:45:52,311 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:46:08,867 - INFO - Received message: Can you tell me the box office of Guardians of the Galaxy Vol. 2?
+2024-12-11 10:46:08,943 - INFO - Response: I found multiple entities in your message, please try again and ask about one movie only!
+2024-12-11 10:46:28,512 - INFO - Received message: an you tell me the box office of Guardians of the Galaxy Vol. 2?
+2024-12-11 10:46:28,513 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:46:32,668 - INFO - Received message: What does Will Smith look like.
+2024-12-11 10:46:32,668 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:46:57,531 - INFO - Received message: Can you tell me the box office of Guardians of the Galaxy Vol. 2
+2024-12-11 10:46:57,541 - INFO - Response: Unfortunately, I need more information still. It seems there are several entries for Othello:
+1. 1995 film by Oliver Parker
+2. 1965 film by Stuart Burge
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:47:13,034 - INFO - Received message: Who is the director of Good Will Hunting? 
+2024-12-11 10:47:13,097 - INFO - Movie: Good Will Hunting, Relation: director
+2024-12-11 10:47:13,097 - INFO - Movie: Q193835, Relation: P57
+2024-12-11 10:47:14,365 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:47:14,365 - INFO - Response: The director of Good Will Hunting is Gus Van Sant.
+2024-12-11 10:47:20,604 - INFO - Received message: Which movies does Will Smith play in?
+2024-12-11 10:47:20,604 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:47:47,490 - INFO - Received message: Who directs Othello?
+2024-12-11 10:47:47,491 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:48:24,761 - INFO - Received message: Recommend me a thriller released in 1990.
+2024-12-11 10:48:24,827 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-12-11 10:48:48,500 - INFO - Received message: Who is the director of the Godfather?
+
+2024-12-11 10:48:48,500 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:49:25,742 - INFO - Received message: Please present to me a visual depiction of the esteemed Tom Cruise
+2024-12-11 10:49:25,921 - INFO - Response: image:3609/rm560401664 Here is an image of Tom Cruise for you!
+2024-12-11 10:49:39,175 - INFO - Received message: Let me know what Sandra Bullock looks like. 
+
+
+2024-12-11 10:49:39,175 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:50:14,126 - INFO - Received message: show me a picture of daniel radcliff
+2024-12-11 10:50:14,126 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 10:50:57,345 - INFO - Received message: show me a picture of daniel radcliff
+2024-12-11 10:50:57,591 - INFO - Response: I'm sorry, but I can only show images of actors or movie posters. Please try rephrasing your query!
+2024-12-11 10:51:41,276 - INFO - Received message: show me a picture of Daniel Radcliffe
+2024-12-11 10:51:41,426 - INFO - Response: image:0920/rm2995740928 Behold this captivating image of Daniel Radcliffe!
+2024-12-11 10:58:28,223 - INFO - Received message: Who is the director of Apocalypse Now?
+2024-12-11 10:58:28,286 - INFO - Movie: Apocalypse Now, Relation: director
+2024-12-11 10:58:28,287 - INFO - Movie: Q182692, Relation: P57
+2024-12-11 10:58:29,540 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:58:29,540 - INFO - Response: Francis Ford Coppola directed the film Apocalypse Now.
+2024-12-11 10:58:37,812 - INFO - Received message: Who is the director of Apocalypse Now? -
+2024-12-11 10:58:37,966 - INFO - Movie: Apocalypse Now, Relation: director
+2024-12-11 10:58:37,966 - INFO - Movie: Q182692, Relation: P57
+2024-12-11 10:58:38,031 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:58:38,031 - INFO - Response: Francis Ford Coppola directed Apocalypse Now.
+2024-12-11 10:58:57,268 - INFO - Received message: Who is the director of Apocalypse Now? 
+2024-12-11 10:58:57,335 - INFO - Movie: Apocalypse Now, Relation: director
+2024-12-11 10:58:57,335 - INFO - Movie: Q182692, Relation: P57
+2024-12-11 10:58:57,398 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 10:58:57,398 - INFO - Response: Francis Ford Coppola directed Apocalypse Now.
+2024-12-11 10:59:14,754 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-12-11 10:59:14,859 - INFO - Response: image:0638/rm815175936
+Have you considered watching Spy Game, Freaks and J. Edgar? I recommend it!
+
+You wonder why? They share the following attributes:
+ - genre: flashback film
+2024-12-11 10:59:38,469 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies? 
+2024-12-11 10:59:38,557 - INFO - Response: It seems there are several entries for The Lion King:
+1. 2019 American musical film directed by Jon Favreau
+2. 1994 American animated film
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 10:59:51,879 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies? 
+2024-12-11 10:59:51,985 - INFO - Response: image:0638/rm815175936
+How about watching Spy Game, Freaks and J. Edgar? It's worth your time.
+
+You wonder why? They share the following attributes:
+ - genre: flashback film
+2024-12-11 11:00:01,150 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies? 
+2024-12-11 11:00:01,257 - INFO - Response: image:0542/rm1050056960
+I’d suggest you take a look at Spy Game, Freaks and J. Edgar!
+
+You wonder why? They share the following attributes:
+ - genre: flashback film
+2024-12-11 11:00:20,704 - INFO - Received message: Show me a picture of keanu reeves.
+2024-12-11 11:00:20,704 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 11:00:33,021 - INFO - Received message: stop. 
+2024-12-11 11:00:33,021 - INFO - Response: Okay, on your demand the process has been interrupted. I'm happy to answer any other questions :)
+2024-12-11 11:00:37,159 - INFO - Received message: keanu reeves
+2024-12-11 11:00:37,286 - INFO - Response: image:2573/rm963329536 This is a photo of Keanu Reeves.
+2024-12-11 11:00:38,205 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies? 
+2024-12-11 11:00:38,287 - INFO - Response: It seems there are several entries for The Lion King:
+1. 2019 American musical film directed by Jon Favreau
+2. 1994 American animated film
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:00:39,249 - INFO - Received message: 5.	Who is the director of The Ascent?
+2024-12-11 11:00:39,314 - INFO - Movie: The Ascent, Relation: director
+2024-12-11 11:00:39,314 - INFO - Movie: Q760053, Relation: P57
+2024-12-11 11:00:39,407 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:00:39,408 - INFO - Response: Larisa Shepitko is the director of The Ascent.
+2024-12-11 11:01:13,131 - INFO - Received message: Who is the director of Apocalypse Now? 
+2024-12-11 11:01:13,131 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 11:01:25,410 - INFO - Received message: Who is the screenwriter of Iron Man 3?
+2024-12-11 11:01:25,472 - INFO - Movie: Iron Man 3, Relation: screenwriter
+2024-12-11 11:01:25,472 - INFO - Movie: Q209538, Relation: P58
+2024-12-11 11:01:25,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:01:25,550 - INFO - Response: Stan Lee was the screenwriter of Iron Man 3.
+2024-12-11 11:01:38,798 - INFO - Received message: show me a picture of 'Julia Roberts'
+2024-12-11 11:01:38,946 - INFO - Response: image:2493/rm1847966208 Here is a picture of Julia Roberts.
+2024-12-11 11:01:41,893 - INFO - Received message: Yes
+2024-12-11 11:01:41,894 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 11:01:46,072 - INFO - Received message: show me titanic!
+2024-12-11 11:01:46,124 - INFO - Response: It seems there are several entries for Titanic:
+1. 1953 film by Jean Negulesco
+2. 1943 German propaganda film
+3. 1997 American romantic disaster film directed by James Cameron
+4. 1996 TV miniseries directed by Robert Lieberman
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:01:55,415 - INFO - Received message: 3
+2024-12-11 11:01:55,685 - INFO - Response: image:3442/rm1630281472
+You can't go wrong with Moondram Pirai, Forever Enthralled and Christmas Made to Order, I highly recommend it.
+
+You wonder why? They share the following attributes:
+ - genre: romance film
+2024-12-11 11:02:00,548 - INFO - Received message: Who is the director of Apocalypse Now?
+2024-12-11 11:02:00,548 - INFO - Response: I'm not sure which one you meant. Please specify using the list number or the full description.
+Let me know if I should stop the disambiguation.
+2024-12-11 11:02:25,345 - INFO - Received message: show me a picture of the movie titanic
+2024-12-11 11:02:25,543 - INFO - Response: I'm sorry, but I can only show images of actors or movie posters. Please try rephrasing your query!
+2024-12-11 11:02:30,524 - INFO - Received message: what is the publication date of Tom Meets Zizou?
+2024-12-11 11:02:30,590 - INFO - Movie: Tom Meets Zizou, Relation: publication date
+2024-12-11 11:02:30,590 - INFO - Movie: Q1410031, Relation: P577
+2024-12-11 11:02:30,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:02:30,675 - INFO - Response: The publication date of Tom Meets Zizou was in 2010. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.04 and an answer distribution of 0 supporting and 3 rejecting votes.)
+2024-12-11 11:02:41,897 - INFO - Received message: show me a picture of the movie Titanic
+2024-12-11 11:02:42,089 - INFO - Response: I'm sorry, but I can only show images of actors or movie posters. Please try rephrasing your query!
+2024-12-11 11:11:41,631 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-12-11 11:11:41,695 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-12-11 11:11:41,695 - INFO - Movie: Q175038, Relation: P58
+2024-12-11 11:11:42,702 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:11:42,702 - INFO - Response: David Peoples wrote the screenplay for 12 Monkeys.
+2024-12-11 11:11:42,734 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-12-11 11:11:42,800 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-12-11 11:11:42,801 - INFO - Movie: Q175038, Relation: P58
+2024-12-11 11:11:42,860 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:11:42,861 - INFO - Response: David Peoples wrote 12 Monkeys.
+2024-12-11 11:11:45,862 - INFO - Received message: Who is the screenwriter of 12 Monkeys? 
+2024-12-11 11:11:45,927 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-12-11 11:11:45,927 - INFO - Movie: Q175038, Relation: P58
+2024-12-11 11:11:45,997 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:11:45,997 - INFO - Response: David Peoples wrote the screenplay for 12 Monkeys.
+2024-12-11 11:12:07,557 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-12-11 11:12:07,619 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-12-11 11:12:07,619 - INFO - Movie: Q175038, Relation: P58
+2024-12-11 11:12:07,690 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:12:07,691 - INFO - Response: David Peoples wrote the screenplay for 12 Monkeys.
+2024-12-11 11:12:08,615 - INFO - Received message: let me know what Lucy Liu looks like.
+2024-12-11 11:12:08,758 - INFO - Response: image:0922/rm380737536 Check out this amazing picture of Lucy Liu.
+2024-12-11 11:12:13,810 - INFO - Received message: Let me know what Lucy Liu looks like.
+2024-12-11 11:12:13,948 - INFO - Response: image:1880/rm1443797504 Look at this beautiful picture of Lucy Liu!
+2024-12-11 11:12:21,035 - INFO - Received message: Let me know what Lucy Liu looks like
+2024-12-11 11:12:21,180 - INFO - Response: image:0630/rm3596068352 Check out this amazing picture of Lucy Liu.
+2024-12-11 11:12:30,347 - INFO - Received message: Let me know what Lucy Liu looks like
+2024-12-11 11:12:30,486 - INFO - Response: image:3870/rm2070846208 Here is an image of Lucy Liu for you!
+2024-12-11 11:12:31,416 - INFO - Received message: Who is the executive producer of X-Men: First Class?
+2024-12-11 11:12:31,576 - INFO - Movie: X-Men: First Class, Relation: executive producer
+2024-12-11 11:12:31,576 - INFO - Movie: Q223596, Relation: P1431
+2024-12-11 11:12:31,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:12:31,660 - INFO - Response: Sheryl Lee Ralph was the executive producer of X-Men: First Class. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.199 and an answer distribution of 2 supporting and 1 rejecting votes.)
+2024-12-11 11:12:34,518 - INFO - Received message: The executive producer is Sheryl Lee Ralph.
+2024-12-11 11:12:34,606 - INFO - Response: I found multiple entities in your message, please try again and ask about one movie only!
+2024-12-11 11:12:52,138 - INFO - Received message: Who is the executive producer of X-Men: First Class?
+2024-12-11 11:12:52,296 - INFO - Movie: X-Men: First Class, Relation: executive producer
+2024-12-11 11:12:52,296 - INFO - Movie: Q223596, Relation: P1431
+2024-12-11 11:12:52,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:12:52,378 - INFO - Response: Sheryl Lee Ralph was the executive producer of X-Men: First Class. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.199 and an answer distribution of 2 supporting and 1 rejecting votes.)
+2024-12-11 11:12:55,231 - INFO - Received message: Who is the executive producer of X-Men: First Class?
+2024-12-11 11:12:55,394 - INFO - Movie: X-Men: First Class, Relation: executive producer
+2024-12-11 11:12:55,394 - INFO - Movie: Q223596, Relation: P1431
+2024-12-11 11:12:55,474 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:12:55,474 - INFO - Response: Sheryl Lee Ralph was the executive producer of X-Men: First Class. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.199 and an answer distribution of 2 supporting and 1 rejecting votes.)
+2024-12-11 11:12:56,285 - INFO - Received message: Who is the executive producer of X-Men: First Class?
+2024-12-11 11:12:56,439 - INFO - Movie: X-Men: First Class, Relation: executive producer
+2024-12-11 11:12:56,439 - INFO - Movie: Q223596, Relation: P1431
+2024-12-11 11:12:56,520 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:12:56,521 - INFO - Response: Sheryl Lee Ralph was the executive producer of X-Men: First Class. (This response was populated using crowd-sourced data, which shows an inter-rater agreement of 0.199 and an answer distribution of 2 supporting and 1 rejecting votes.)
+2024-12-11 11:13:11,774 - INFO - Received message: hello
+2024-12-11 11:13:11,870 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:11,870 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 11:13:15,993 - INFO - Received message: 
+Who is the screenwriter of The Masked Gang: Cyprus? 
+2024-12-11 11:13:16,065 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-12-11 11:13:16,066 - INFO - Movie: Q7750525, Relation: P58
+2024-12-11 11:13:16,310 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:16,310 - INFO - Response: The screenplay writer of The Masked Gang: Cyprus is Cengiz Küçükayvaz. (Embedding Answer)
+2024-12-11 11:13:21,125 - INFO - Received message: Suggest me movies like Forest Gump
+2024-12-11 11:13:21,194 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-12-11 11:13:26,274 - INFO - Received message: Who is the director of Good Will Hunting? 
+2024-12-11 11:13:26,338 - INFO - Movie: Good Will Hunting, Relation: director
+2024-12-11 11:13:26,338 - INFO - Movie: Q193835, Relation: P57
+2024-12-11 11:13:26,421 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:26,421 - INFO - Response: Gus Van Sant directed the film "Good Will Hunting".
+2024-12-11 11:13:35,594 - INFO - Received message: it was not a question!
+2024-12-11 11:13:35,684 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:35,685 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 11:13:37,744 - INFO - Received message: Who is the director of Apocalypse Now?
+2024-12-11 11:13:37,810 - INFO - Movie: Apocalypse Now, Relation: director
+2024-12-11 11:13:37,810 - INFO - Movie: Q182692, Relation: P57
+2024-12-11 11:13:37,885 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:37,885 - INFO - Response: Francis Ford Coppola directed Apocalypse Now.
+2024-12-11 11:13:40,859 - INFO - Received message: 
+Recommend movies similar to Hamlet and Othello. 
+2024-12-11 11:13:40,922 - INFO - Response: It seems there are several entries for Hamlet:
+1. 2000 film by Michael Almereyda
+2. 1990 film by Franco Zeffirelli
+3. 1964 film by Grigori Kozintsev
+4. 1996 film by Kenneth Branagh
+5. 1948 film by Laurence Olivier
+6. 2009 TV film directed by Gregory Doran
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:13:43,982 - INFO - Received message: okay chill man!
+2024-12-11 11:13:44,076 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:44,076 - INFO - Response: I'm sorry, I can only answer questions related to movies.
+2024-12-11 11:13:46,126 - INFO - Received message: What is the MPAA film rating of Weathering with You? 
+2024-12-11 11:13:46,198 - INFO - Movie: Weathering with You, Relation: MPAA film rating
+2024-12-11 11:13:46,198 - INFO - Movie: Q59692464, Relation: P1657
+2024-12-11 11:13:46,322 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:13:46,322 - INFO - Response: The MPAA film rating of Weathering with You is currently NC-17 due to its mature themes and content.
+2024-12-11 11:13:57,491 - INFO - Received message: SHow me Tom Hanks in Forrest Gump
+2024-12-11 11:13:59,096 - INFO - Response: How about watching Buffalo '66, What We Wanted and Linger? It's worth your time.
+
+You wonder why? They share the following attributes:
+ - genre: drama
+2024-12-11 11:14:07,371 - INFO - Received message: 2000 film by Michael Almereyda
+2024-12-11 11:14:07,382 - INFO - Response: Unfortunately, I need more information still. It seems there are several entries for Othello:
+1. 1995 film by Oliver Parker
+2. 1965 film by Stuart Burge
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:14:18,715 - INFO - Received message: Suggest me romantic movies
+2024-12-11 11:14:20,258 - INFO - Response: image:0805/rm2442792448
+You should definitely check out Buffalo Bill and the Indians, or Sitting Bull's History Lesson, Buffalo '66 and Wanted: Dead or Alive!
+
+You wonder why? They share the following attributes:
+ - original language of film or TV show: English
+ - distribution format: video on demand
+ - color: color
+ - country of origin: United States of America
+ - distributed by: Netflix
+2024-12-11 11:14:20,288 - INFO - Received message: 1995 film by Oliver Parker
+2024-12-11 11:14:20,533 - INFO - Response: image:2140/rm3954052352
+I’d suggest you take a look at Heart Condition, The Public Eye and Transcendence!
+
+You wonder why? They share the following attributes:
+ - genre: drama
+ - FSK film rating: FSK 12
+ - CNC film rating (France): no age restriction
+ - instance of: film
+ - original language of film or TV show: English
+ - distribution format: video on demand
+ - color: color
+ - country of origin: United States of America
+ - distributed by: Netflix
+2024-12-11 11:14:22,327 - INFO - Received message: suggest me a movie similar to Interstellar?
+2024-12-11 11:14:23,938 - INFO - Response: I think you'd enjoy watching Buffalo '66, What We Wanted and Linger.
+
+You wonder why? They share the following attributes:
+ - genre: drama
+2024-12-11 11:14:28,023 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween. 
+2024-12-11 11:14:28,099 - INFO - Response: It seems there are several entries for A Nightmare on Elm Street:
+1. 2010 horror film
+2. 1984 American slasher film
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:14:53,830 - INFO - Received message: who is the director of Titanic?
+2024-12-11 11:14:53,888 - INFO - Movie: Titanic, Relation: director
+2024-12-11 11:14:53,888 - INFO - Response: It seems there are several entries for Titanic:
+1. 1953 film by Jean Negulesco
+2. 1943 German propaganda film
+3. 1997 American romantic disaster film directed by James Cameron
+4. 1996 TV miniseries directed by Robert Lieberman
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:21:13,877 - INFO - Received message: 1
+2024-12-11 11:21:13,888 - INFO - Movie: Q1197729, Relation: P57
+2024-12-11 11:21:15,180 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-11 11:21:15,181 - INFO - Response: The film's director was Jean Negulesco.
+2024-12-11 11:21:19,309 - INFO - Received message: Show me Titanic.
+2024-12-11 11:21:19,361 - INFO - Response: It seems there are several entries for Titanic:
+1. 1953 film by Jean Negulesco
+2. 1943 German propaganda film
+3. 1997 American romantic disaster film directed by James Cameron
+4. 1996 TV miniseries directed by Robert Lieberman
+Let me know which one you're asking about or whether you'd like to stop.
+2024-12-11 11:21:30,532 - INFO - Received message: 3rd
+2024-12-11 11:21:30,810 - INFO - Response: image:3442/rm1630281472
+If you’re looking for something good, try Moondram Pirai, Forever Enthralled and Christmas Made to Order.
+
+You wonder why? They share the following attributes:
+ - genre: romance film
+2024-12-11 11:21:47,800 - INFO - Received message: Show me a picture of the movie Titanic.
+2024-12-11 11:21:48,007 - INFO - Response: I'm sorry, but I can only show images of actors or movie posters. Please try rephrasing your query!
+2024-12-11 11:22:13,245 - INFO - Received message: Show me a picture of the movie Titanic.
+2024-12-11 11:22:13,442 - INFO - Response: I'm sorry, but I can only show images of actors or movie posters. Please try rephrasing your query!

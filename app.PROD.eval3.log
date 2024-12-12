@@ -1,0 +1,119 @@
+2024-11-27 10:15:18,706 - INFO - Use pytorch device_name: cuda
+2024-11-27 10:15:18,706 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-11-27 10:15:22,599 - INFO - Use pytorch device_name: cuda
+2024-11-27 10:15:22,600 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-11-27 10:16:51,242 - INFO - Received message: hi!
+2024-11-27 10:16:51,306 - INFO - Response: Hello! Nice to have you here. I can answer multiple questions regarding movies. Let's start!
+2024-11-27 10:28:29,173 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-11-27 10:28:29,437 - INFO - Response: Have you considered watching Spy Game? I recommend it!
+2024-11-27 10:28:35,695 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-11-27 10:28:35,779 - INFO - Response: You can't go wrong with Spy Game, I highly recommend it.
+2024-11-27 10:28:39,882 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-11-27 10:28:44,166 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-11-27 10:28:44,263 - INFO - Response: You can't go wrong with Spy Game, I highly recommend it.
+2024-11-27 10:29:02,989 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween
+2024-11-27 10:29:03,101 - INFO - Response: Have you considered watching C.H.U.D.? I recommend it!
+2024-11-27 10:29:13,473 - INFO - Received message: Given that I like Kung Fu Panda, can you recommend some movies?
+2024-11-27 10:29:13,566 - INFO - Response: Why not give Spy Game a try? I think you'd enjoy it!
+2024-11-27 10:29:17,727 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween. 
+2024-11-27 10:29:17,838 - INFO - Response: You can't go wrong with C.H.U.D., I highly recommend it.
+2024-11-27 10:29:26,148 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween
+2024-11-27 10:29:36,704 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:29:36,826 - INFO - Response: You might really like Sleeping Beauty, give it a watch!
+2024-11-27 10:29:49,242 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:30:01,894 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:30:10,327 - INFO - Received message:  Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:30:37,563 - INFO - Received message: hello
+
+2024-11-27 10:30:37,581 - INFO - Response: Hello! Nice to have you here. I can answer multiple questions regarding movies. Let's start!
+2024-11-27 10:30:50,049 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween.
+2024-11-27 10:30:50,165 - INFO - Response: Have you considered watching C.H.U.D.? I recommend it!
+2024-11-27 10:30:58,519 - INFO - Received message: who is the director of The Godfather?
+2024-11-27 10:30:58,574 - INFO - Movie: The Godfather, Relation: director
+2024-11-27 10:30:58,574 - INFO - Movie: Q47703, Relation: P57
+2024-11-27 10:30:58,596 - INFO - Response: I think that the director is Francis Ford Coppola for The Godfather.
+2024-11-27 10:31:00,647 - INFO - Received message: Recommend some movies like The Avengers
+2024-11-27 10:31:00,722 - INFO - Response: How about watching C.H.U.D.? It's worth your time.
+2024-11-27 10:31:33,995 - INFO - Received message: Recommend movies like Inception
+2024-11-27 10:31:34,056 - INFO - Response: There is no movie worthy of Inception to be recommended.
+2024-11-27 10:31:52,723 - INFO - Received message: Recommend some movies like Harry Potter
+2024-11-27 10:32:01,129 - INFO - Received message: Recommend movies like Interstellar?
+
+2024-11-27 10:32:01,206 - INFO - Response: I think C.H.U.D. would be a great pick for you to watch!
+2024-11-27 10:32:21,909 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:32:22,031 - INFO - Response: I think Sleeping Beauty would be a great pick for you to watch!
+2024-11-27 10:33:01,366 - INFO - Received message: Recommend movies like The Godfathera
+
+2024-11-27 10:33:01,464 - INFO - Response: You might really like Buffalo '66, give it a watch!
+2024-11-27 10:33:22,193 - INFO - Received message: Recommend movies like The Godfathera
+
+2024-11-27 10:33:22,290 - INFO - Response: How about watching Buffalo '66? It's worth your time.
+2024-11-27 10:33:44,988 - INFO - Received message: Recommend movies like The Godfather?
+2024-11-27 10:33:45,070 - INFO - Response: You can't go wrong with Buffalo '66, I highly recommend it.
+2024-11-27 10:33:55,447 - INFO - Received message: Reccomend me 
+
+2024-11-27 10:33:55,464 - INFO - Response: I'm not sure how to answer that. Can you please rephrase?
+2024-11-27 10:34:11,908 - INFO - Received message: Recommend me a movie similar to Deadpool?
+2024-11-27 10:34:11,983 - INFO - Response: Have you considered watching Day of the Comet? I recommend it!
+2024-11-27 10:35:38,763 - INFO - Received message: Recommend me movie like Harry Potter
+2024-11-27 10:35:38,834 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-27 10:35:57,420 - INFO - Received message: Can you reccomend me some movies?
+2024-11-27 10:35:57,484 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-27 10:36:07,761 - INFO - Received message: 
+Recommend movies similar to Hamlet and Othello. 
+2024-11-27 10:36:07,845 - INFO - Response: How about watching King Lear? It's worth your time.
+2024-11-27 10:36:16,096 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies? 
+2024-11-27 10:36:16,221 - INFO - Response: I think you'd enjoy watching Sleeping Beauty.
+2024-11-27 10:36:26,520 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween. 
+2024-11-27 10:36:26,634 - INFO - Response: You should definitely check out C.H.U.D.!
+2024-11-27 10:37:42,639 - INFO - Received message:  Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies? 
+2024-11-27 10:38:06,332 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween.
+2024-11-27 10:38:06,448 - INFO - Response: Why not give C.H.U.D. a try? I think you'd enjoy it!
+2024-11-27 10:38:14,617 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-27 10:42:20,158 - INFO - Received message: Recommend movies similar to Hamlet and Othello.
+2024-11-27 10:42:20,246 - INFO - Response: How about watching King Lear? It's worth your time.
+2024-11-27 10:42:40,837 - INFO - Received message: recommend movies like harry potter and lord of the rings
+2024-11-27 10:42:40,924 - INFO - Response: Why not give North a try? I think you'd enjoy it!
+2024-11-27 10:43:01,464 - INFO - Received message: Recommend movies similar to Hamlet and Othello
+2024-11-27 10:43:01,546 - INFO - Response: You might really like King Lear, give it a watch!
+2024-11-27 10:43:17,990 - INFO - Received message: Recommend some movies given that I like Ryan Gosling? 
+2024-11-27 10:43:18,079 - INFO - Response: Have you considered watching Bukowski: Born into This? I recommend it!
+2024-11-27 10:43:24,229 - INFO - Received message: Recommend some movies given that I like Ryan Gosling?
+2024-11-27 10:43:24,324 - INFO - Response: Have you considered watching Bukowski: Born into This? I recommend it!
+2024-11-27 10:43:30,506 - INFO - Received message: Recommend movies similar to Hamlet and Othello
+2024-11-27 10:44:01,472 - INFO - Received message: Recommend some movies given that I like Ryan Gosling
+2024-11-27 10:44:01,561 - INFO - Response: You can't go wrong with Bukowski: Born into This, I highly recommend it.
+2024-11-27 10:44:11,828 - INFO - Received message: Recommend movies like Forest Gump and The Lord of the Rings: The Fellowship of the Ring. 
+2024-11-27 10:44:11,923 - INFO - Response: You should definitely check out North!
+2024-11-27 10:44:20,150 - INFO - Received message: Recommend movies like Forest Gump and The Lord of the Rings: The Fellowship of the Ring.
+2024-11-27 10:44:20,247 - INFO - Response: You should definitely check out North!
+2024-11-27 10:44:32,626 - INFO - Received message: Recommend movies like Forest Gump and The Lord of the Rings: The Fellowship of the Ring.
+2024-11-27 10:44:32,733 - INFO - Response: I think North would be a great pick for you to watch!
+2024-11-27 10:46:44,078 - INFO - Received message: hi
+2024-11-27 10:46:44,094 - INFO - Response: Hello! Nice to have you here. I can answer multiple questions regarding movies. Let's start!
+2024-11-27 10:47:27,233 - INFO - Received message: Recommend movies like Nightmare on Elm Street, Friday the 13th, and Halloween. 
+
+
+2024-11-27 10:47:27,345 - INFO - Response: Why not give C.H.U.D. a try? I think you'd enjoy it!
+2024-11-27 10:47:58,122 - INFO - Received message: Recommend movies like Forest Gump and The Lord of the Rings: The Fellowship of the Ring.
+2024-11-27 10:47:58,220 - INFO - Response: I think you'd enjoy watching North.
+2024-11-27 10:48:08,502 - INFO - Received message: bye
+2024-11-27 10:48:08,518 - INFO - Response: Goodbye! I hope I was able to help you. Feel free to come back anytime.
+2024-11-27 10:54:24,139 - INFO - Received message: Given that I like A.I. Artificial Intelligence, can you recommend some movies? 
+2024-11-27 10:54:32,403 - INFO - Received message: Given that I like A.I. Artificial Intelligence, can you recommend some movies? ---
+2024-11-27 10:54:32,608 - INFO - Response: You can't go wrong with Buffalo Girls, I highly recommend it.
+2024-11-27 10:54:36,704 - INFO - Received message: Recommend movies like The Godfather
+2024-11-27 10:54:36,783 - INFO - Response: I think you'd enjoy watching Buffalo '66.
+2024-11-27 10:55:03,345 - INFO - Received message: I really like The Lion King and Pocahontas, can you recommend some similar movies? 
+2024-11-27 10:55:40,210 - INFO - Received message: Recommend movies like The Godfather
+2024-11-27 10:55:46,450 - INFO - Received message: Recommend me a movie like Harry Potter
+2024-11-27 10:55:46,530 - INFO - Response: I think you'd enjoy watching Forever Enthralled.
+2024-11-27 10:56:10,996 - INFO - Received message: I really like The Lion King and Pocahontas, can you recommend some similar movies?
+2024-11-27 10:56:11,115 - INFO - Response: I think you'd enjoy watching Oliver & Company.
+2024-11-27 10:56:13,186 - INFO - Received message: Recommend me a movie similar to Deadpool
+2024-11-27 10:56:13,261 - INFO - Response: I think you'd enjoy watching Day of the Comet.
+2024-11-27 10:56:56,153 - INFO - Received message: If I like Matthew McConaughey
+, recommend some other actors I might like
+2024-11-27 10:56:56,254 - INFO - Response: You can't go wrong with Theeran Athikaram Ondru, I highly recommend it.
+2024-11-27 10:57:45,173 - INFO - Received message: I like wormhole, what movie would I like
+2024-11-27 10:57:45,241 - INFO - Response: I could not find any entity in your message, please try again and reformulate.

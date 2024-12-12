@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Diagram</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <div class="flex flex-col items-center space-y-32 bg-gray-100 p-8">
+            <!-- Main Application Level -->
+            <div class="mr-auto w-full rounded-lg bg-white p-6 shadow-lg">
+              <h2 class="text-center text-lg font-semibold">Main Application</h2>
+              <p class="text-center text-gray-600">FastAPI as wrapper for performance optimization and flexibility</p>
+              <p class="text-center text-gray-600">Coordinates user input and initiates service calls</p>
+              <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: User Query</span>
+              <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Routed to Answering Service</span>
+            </div>
+
+            <!-- Answering Service -->
+            <div class="mr-auto w-full rounded-lg bg-white p-6 shadow-lg">
+              <h2 class="text-center text-lg font-semibold">Answering Service</h2>
+              <p class="text-center text-gray-600">Processes query and coordinates extraction, SPARQL, and embedding services</p>
+              <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: User Query</span>
+              <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Final Answer</span>
+            </div>
+
+            <!-- Question Classifier and Extraction Services Level -->
+            <div class="flex w-full justify-between space-x-32">
+              <!-- Question Classifier -->
+              <div class="w-2/5 rounded-lg bg-white p-6 shadow-lg content-center">
+                <h3 class="text-center text-lg font-semibold">Question Classifier</h3>
+                <p class="text-center text-gray-600">Classifies the query into KNOWLEDGE, MULTIMEDIA, RECOMMENDATION and SMALLTALK</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: User Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Question Type</span>
+              </div>
+
+              <!-- Extraction Service -->
+              <div class="w-2/5 rounded-lg bg-white p-6 shadow-lg">
+                <h3 class="text-center text-lg font-semibold">Extraction Service</h3>
+                <p class="text-center text-gray-600">Extracts entities and relationships from user query</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Query Data</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Extracted Entities/Relations</span>
+
+                <div class="mt-4 grid grid-cols-1 gap-4">
+                  <!-- Movie Extraction -->
+                  <div class="rounded-lg bg-gray-50 p-4 shadow">
+                    <h4 class="text-center font-semibold">Movie Extraction</h4>
+                    <p class="text-center text-sm text-gray-500">Extracts movie-related information</p>
+                    <span class="mt-2 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-xs font-medium text-blue-800">Input: Query on Movies</span>
+                    <span class="mt-1 block rounded bg-green-100 px-2.5 py-0.5 text-center text-xs font-medium text-green-800">Output: Movie Data</span>
+                  </div>
+
+                  <!-- Relationship Extraction -->
+                  <div class="rounded-lg bg-gray-50 p-4 shadow">
+                    <h4 class="text-center font-semibold">Relationship Extraction</h4>
+                    <p class="text-center text-sm text-gray-500">Extracts relationships like director, actor</p>
+                    <span class="mt-2 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-xs font-medium text-blue-800">Input: Relationship Query</span>
+                    <span class="mt-1 block rounded bg-green-100 px-2.5 py-0.5 text-center text-xs font-medium text-green-800">Output: Related Entity Data</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services Level -->
+            <div class="mr-auto grid w-full grid-cols-5 gap-8 rounded-lg bg-white p-6 shadow-lg">
+              <!-- SPARQL Graph Service -->
+              <div class="rounded-lg bg-gray-50 p-4 shadow">
+                <h3 class="text-center text-lg font-semibold">SPARQL Graph Service</h3>
+                <p class="text-center text-gray-600">Executes SPARQL queries to retrieves data, used for KNOWLEDGE questions</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Entity/Relationship Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Retrieved Data</span>
+              </div>
+
+              <!-- Embedding Service -->
+              <div class="rounded-lg bg-gray-50 p-4 shadow">
+                <h3 class="text-center text-lg font-semibold">Embedding Service</h3>
+                <p class="text-center text-gray-600">Generates semantic embeddings for similarity checks</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Processed Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Embedding Vectors</span>
+              </div>
+
+              <!-- Crowdsourcing Service -->
+              <div class="rounded-lg bg-gray-50 p-4 shadow">
+                <h3 class="text-center text-lg font-semibold">Crowdsourcing Service</h3>
+                <p class="text-center text-gray-600">Retrieves information from crowdsourcing data</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Entity/Relationship Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Retrieved Data</span>
+              </div>
+
+              <!-- Recommendation Service -->
+              <div class="rounded-lg bg-gray-50 p-4 shadow">
+                <h3 class="text-center text-lg font-semibold">Recommendation Service</h3>
+                <p class="text-center text-gray-600">Recommends movies according to other movies the user likes, used for RECOMMENDATION questions</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Entity Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Recommendet Movies</span>
+              </div>
+
+              <!-- Image Service -->
+              <div class="rounded-lg bg-gray-50 p-4 shadow">
+                <h3 class="text-center text-lg font-semibold">Image Service</h3>
+                <p class="text-center text-gray-600">Finds images of persons and movies, used for MULTIMEDIA questions</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Entity Query</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Image of Entity</span>
+              </div>
+            </div>
+
+            <div class="mr-auto grid w-full grid-cols-2 gap-8">
+              <!-- Disambiguation Service -->
+              <div class="rounded-lg bg-white p-6 shadow-lg">
+                <h2 class="text-center text-lg font-semibold">Disambiguation Service</h2>
+                <p class="text-center text-gray-600">Starts user-interaction process when entity collisions in the user's request are found</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Extracted Entities</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: Entity specified by user</span>
+              </div>
+
+              <!-- LLM Service -->
+              <div class="rounded-lg bg-white p-6 shadow-lg">
+                <h2 class="text-center text-lg font-semibold">LLM Service</h2>
+                <p class="text-center text-gray-600">Rephrases sentence to sound more human-like</p>
+                <span class="mt-4 block rounded bg-blue-100 px-2.5 py-0.5 text-center text-sm font-medium text-blue-800">Input: Query Response</span>
+                <span class="mt-2 block rounded bg-green-100 px-2.5 py-0.5 text-center text-sm font-medium text-green-800">Output: More Human-like Version of Sentence</span>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,275 @@
+2024-11-04 10:04:27,381 - INFO - Use pytorch device_name: cuda
+2024-11-04 10:04:27,381 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-11-04 10:16:32,137 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:16:32,262 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E2903D190>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:16:32,263 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E2903FF80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:16:34,330 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E257DB200>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:16:34,330 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E2903EC00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:16:34,331 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E2903D940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/rooms?session=32Zl21W0sf4MUyGvnDXjIwGNKEHzqYqu
+2024-11-04 10:19:19,978 - INFO - Use pytorch device_name: cuda
+2024-11-04 10:19:19,978 - INFO - Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-11-04 10:22:18,824 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+2024-11-04 10:22:18,825 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 10:22:18,825 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 10:22:19,016 - INFO - Response: I think that the screenwriter is Cengiz Küçükayvaz for The Masked Gang: Cyprus. (Embedding Answer)
+2024-11-04 10:22:33,328 - INFO - Received message: Question-1
+
+2024-11-04 10:22:34,033 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:22:36,105 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:22:36,106 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:22:36,106 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:22:36,125 - INFO - Response: I'm almost certain that it is Gus Van Sant.
+2024-11-04 10:23:02,676 - INFO - Received message: Who directed The Bridge on the River Kwai?
+2024-11-04 10:23:02,747 - INFO - Movie: The Bridge on the River Kwai, Relation: director
+2024-11-04 10:23:02,747 - INFO - Movie: Q188718, Relation: P57
+2024-11-04 10:23:02,766 - INFO - Response: The director is David Lean for The Bridge on the River Kwai.
+2024-11-04 10:23:23,228 - INFO - Received message: Who is the director of Star Wars: Episode VI - Return of the Jedi?
+2024-11-04 10:23:23,229 - INFO - Movie: Star Wars: Episode VI � Return of the Jedi, Relation: director
+2024-11-04 10:23:23,229 - INFO - Movie: Q181803, Relation: P57
+2024-11-04 10:23:23,252 - INFO - Response: According to my knowledge, it is Richard Marquand.
+2024-11-04 10:24:32,804 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+2024-11-04 10:24:32,804 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 10:24:32,805 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 10:24:32,902 - INFO - Response: I think that the screenwriter is Cengiz Küçükayvaz for The Masked Gang: Cyprus. (Embedding Answer)
+2024-11-04 10:24:51,367 - INFO - Received message: Given that I like The Lion King, Pocahontas, and The Beauty and the Beast, can you recommend some movies?
+2024-11-04 10:24:51,378 - INFO - Response: I found multiple entities in your message, please try again and ask about one movie only!
+2024-11-04 10:25:32,415 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+2024-11-04 10:25:32,415 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 10:25:32,415 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 10:25:32,503 - INFO - Response: I would say that the screenwriter of The Masked Gang: Cyprus is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 10:29:14,972 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+2024-11-04 10:29:14,973 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 10:29:14,973 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 10:29:15,057 - INFO - Response: I'm almost certain that it is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 10:29:59,877 - INFO - Received message: Who is the director of Star Wars: Episode VI - Return of the Jedi?
+2024-11-04 10:29:59,878 - INFO - Movie: Star Wars: Episode VI � Return of the Jedi, Relation: director
+2024-11-04 10:29:59,878 - INFO - Movie: Q181803, Relation: P57
+2024-11-04 10:29:59,896 - INFO - Response: I think it is Richard Marquand.
+2024-11-04 10:30:26,637 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:30:26,638 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:30:26,638 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:30:26,657 - INFO - Response: I would say that it is Gus Van Sant.
+2024-11-04 10:30:26,678 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:30:26,678 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:30:26,678 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:30:26,697 - INFO - Response: I would say that the screenwriter of 12 Monkeys is David Peoples.
+2024-11-04 10:30:28,733 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:30:28,734 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:30:28,734 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:30:28,753 - INFO - Response: I think that the director is Gus Van Sant for Good Will Hunting.
+2024-11-04 10:30:39,052 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:30:39,053 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:30:39,053 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:30:39,072 - INFO - Response: I'm almost certain that it is Gus Van Sant.
+2024-11-04 10:30:51,372 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:30:51,373 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:30:51,373 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:30:51,392 - INFO - Response: As far as I know, it is David Peoples.
+2024-11-04 10:30:55,536 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:30:55,537 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:30:55,537 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:30:55,556 - INFO - Response: I would say that it is David Peoples.
+2024-11-04 10:30:57,633 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:30:57,633 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:30:57,633 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:30:57,653 - INFO - Response: The director is Gus Van Sant for Good Will Hunting.
+2024-11-04 10:31:12,019 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:31:12,020 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:31:12,020 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:31:12,039 - INFO - Response: I would say that the screenwriter of 12 Monkeys is David Peoples.
+2024-11-04 10:31:20,323 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:31:20,323 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:31:20,323 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:31:20,342 - INFO - Response: That is a good question, I think that the answer is Robert Zemeckis.
+2024-11-04 10:31:28,651 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:31:28,651 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:31:28,651 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:31:28,670 - INFO - Response: That is a good question, I think that the answer is Gus Van Sant.
+2024-11-04 10:31:30,717 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:31:30,717 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:31:30,717 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:31:30,737 - INFO - Response: That is a good question, I think that the answer is Robert Zemeckis.
+2024-11-04 10:31:55,527 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:31:55,528 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:31:55,528 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:31:55,548 - INFO - Response: I think that the director is Robert Zemeckis for Forrest Gump.
+2024-11-04 10:32:01,763 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:32:01,764 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:32:01,764 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:32:01,783 - INFO - Response: I would say that it is Gus Van Sant.
+2024-11-04 10:32:22,431 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:32:22,431 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:32:22,431 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:32:22,450 - INFO - Response: As far as I know, it is Robert Zemeckis.
+2024-11-04 10:32:30,690 - INFO - Received message: What is the genre of Good Neighbors?
+2024-11-04 10:32:30,690 - INFO - Movie: Good Neighbors, Relation: genre
+2024-11-04 10:32:30,690 - INFO - Movie: Q3110682, Relation: P136
+2024-11-04 10:32:30,709 - INFO - Response: I would say that the genre of Good Neighbors is art film.
+2024-11-04 10:32:43,043 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:32:43,044 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:32:43,044 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:32:43,063 - INFO - Response: The director is Robert Zemeckis for Forrest Gump.
+2024-11-04 10:32:49,245 - INFO - Received message: Who directed Titanic?
+2024-11-04 10:32:49,276 - INFO - Movie: Titanic, Relation: director
+2024-11-04 10:32:49,276 - INFO - Movie: Q44578, Relation: P57
+2024-11-04 10:32:49,296 - INFO - Response: The director is James Cameron for Titanic.
+2024-11-04 10:32:59,631 - INFO - Received message: What is the IMDb ID of Apocalypse Now?
+2024-11-04 10:32:59,631 - INFO - Movie: Apocalypse Now, Relation: IMDb ID
+2024-11-04 10:32:59,631 - INFO - Movie: Q182692, Relation: P345
+2024-11-04 10:32:59,650 - INFO - Response: As far as I know, it is tt0078788.
+2024-11-04 10:33:14,048 - INFO - Received message: Which movie has the lowest user rating?
+2024-11-04 10:33:15,191 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:33:15,211 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:33:15,212 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:33:15,212 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:33:15,231 - INFO - Response: The director is Robert Zemeckis for Forrest Gump.
+2024-11-04 10:33:23,474 - INFO - Received message: Who directed Interstellar?
+2024-11-04 10:33:23,511 - INFO - Movie: Interstellar, Relation: director
+2024-11-04 10:33:23,511 - INFO - Movie: Q13417189, Relation: P57
+2024-11-04 10:33:23,531 - INFO - Response: I would say that it is Christopher Nolan.
+2024-11-04 10:33:56,554 - INFO - Received message: Tell me all of the players in Avatar.
+2024-11-04 10:33:56,564 - INFO - Response: I found multiple entities in your message, please try again and ask about one movie only!
+2024-11-04 10:34:02,707 - INFO - Received message: What is the best movie in IMDB?
+2024-11-04 10:34:03,681 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:34:32,511 - INFO - Received message: What is the genre of Good Neighbors?
+2024-11-04 10:34:32,512 - INFO - Movie: Good Neighbors, Relation: genre
+2024-11-04 10:34:32,512 - INFO - Movie: Q3110682, Relation: P136
+2024-11-04 10:34:32,530 - INFO - Response: As far as I know, it is art film.
+2024-11-04 10:34:44,899 - INFO - Received message: What is the genre of Titanic?
+2024-11-04 10:34:44,900 - INFO - Movie: Titanic, Relation: genre
+2024-11-04 10:34:44,900 - INFO - Movie: Q44578, Relation: P136
+2024-11-04 10:34:44,920 - INFO - Response: The genre is romance film for Titanic.
+2024-11-04 10:35:01,487 - INFO - Received message: What is the genre of Harry Potter?
+2024-11-04 10:35:02,573 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:35:43,693 - INFO - Received message: What is the genre of Die Hard?
+2024-11-04 10:35:43,693 - INFO - Movie: Die Hard, Relation: genre
+2024-11-04 10:35:43,693 - INFO - Movie: Q105598, Relation: P136
+2024-11-04 10:35:43,714 - INFO - Response: According to my knowledge, it is action film.
+2024-11-04 10:35:52,005 - INFO - Received message: Who directs the matrix?
+2024-11-04 10:35:52,764 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:36:11,325 - INFO - Received message: Who directs The Matrix?
+2024-11-04 10:36:11,355 - INFO - Movie: The Matrix, Relation: director
+2024-11-04 10:36:11,355 - INFO - Movie: Q83495, Relation: P57
+2024-11-04 10:36:11,375 - INFO - Response: I would say that the director of The Matrix is The Wachowskis.
+2024-11-04 10:36:23,695 - INFO - Received message: Who directed 8 Mile?
+2024-11-04 10:36:23,734 - INFO - Movie: 8 Mile, Relation: director
+2024-11-04 10:36:23,734 - INFO - Movie: Q196665, Relation: P57
+2024-11-04 10:36:23,754 - INFO - Response: I think that the director is Curtis Hanson for 8 Mile.
+2024-11-04 10:37:56,082 - INFO - Received message: Who directs The Matrix?
+2024-11-04 10:37:56,112 - INFO - Movie: The Matrix, Relation: director
+2024-11-04 10:37:56,112 - INFO - Movie: Q83495, Relation: P57
+2024-11-04 10:37:56,132 - INFO - Response: According to my knowledge, it is The Wachowskis.
+2024-11-04 10:43:51,865 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:43:51,866 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:43:51,866 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:43:51,885 - INFO - Response: According to my knowledge, it is Gus Van Sant.
+2024-11-04 10:43:55,970 - INFO - Received message: Who is the director of Good Will Hunting?
+2024-11-04 10:43:55,970 - INFO - Movie: Good Will Hunting, Relation: director
+2024-11-04 10:43:55,970 - INFO - Movie: Q193835, Relation: P57
+2024-11-04 10:43:55,989 - INFO - Response: As far as I know, it is Gus Van Sant.
+2024-11-04 10:44:00,037 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:44:00,038 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:44:00,038 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:44:00,056 - INFO - Response: I would say that it is David Peoples.
+2024-11-04 10:44:10,290 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:44:10,290 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:44:10,291 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:44:10,310 - INFO - Response: I would say that the director of Forrest Gump is Robert Zemeckis.
+2024-11-04 10:44:45,179 - INFO - Received message: Who is the screenwriter of 12 Monkeys?
+2024-11-04 10:44:45,179 - INFO - Movie: 12 Monkeys, Relation: screenwriter
+2024-11-04 10:44:45,179 - INFO - Movie: Q175038, Relation: P58
+2024-11-04 10:44:45,198 - INFO - Response: As far as I know, it is David Peoples.
+2024-11-04 10:45:14,073 - INFO - Received message: Who is the director of Forrest Gump?
+2024-11-04 10:45:14,073 - INFO - Movie: Forrest Gump, Relation: director
+2024-11-04 10:45:14,073 - INFO - Movie: Q134773, Relation: P57
+2024-11-04 10:45:14,093 - INFO - Response: I'm almost certain that it is Robert Zemeckis.
+2024-11-04 10:45:26,441 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+2024-11-04 10:45:26,441 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 10:45:26,441 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 10:45:26,525 - INFO - Response: I would say that it is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 10:45:32,706 - INFO - Received message: When was "The Godfather" released?
+2024-11-04 10:45:32,707 - INFO - Movie: The Godfather, Relation: publication date
+2024-11-04 10:45:32,707 - INFO - Movie: Q47703, Relation: P577
+2024-11-04 10:45:32,727 - INFO - Response: I think it is 1972.
+2024-11-04 10:46:13,693 - INFO - Received message: When was "The Godfather" released?
+2024-11-04 10:46:13,693 - INFO - Movie: The Godfather, Relation: publication date
+2024-11-04 10:46:13,693 - INFO - Movie: Q47703, Relation: P577
+2024-11-04 10:46:13,711 - INFO - Response: That is a good question, I think that the answer is 1972.
+2024-11-04 10:46:48,666 - INFO - Received message: When was the godfather released?
+2024-11-04 10:46:49,649 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:47:14,208 - INFO - Received message: when was hannibal released?
+2024-11-04 10:47:15,052 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:47:35,460 - INFO - Received message: hi there
+2024-11-04 10:47:35,469 - INFO - Response: Hello! Nice to have you here. I can answer multiple questions regarding movies. Let's start!
+2024-11-04 10:48:18,325 - INFO - Received message: who is the gossip girl of directors?
+2024-11-04 10:48:19,440 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 10:48:35,792 - INFO - Received message: what genres are in Good Will Hunting?
+2024-11-04 10:48:35,824 - INFO - Movie: Good Will Hunting, Relation: genre
+2024-11-04 10:48:35,824 - INFO - Movie: Q193835, Relation: P136
+2024-11-04 10:48:35,842 - INFO - Response: I think that the genre is romance film for Good Will Hunting.
+2024-11-04 11:01:38,520 - INFO - Received message: Who is the director of The Longest Day
+2024-11-04 11:01:38,521 - INFO - Movie: The Longest Day, Relation: director
+2024-11-04 11:01:38,521 - INFO - Movie: Q468484, Relation: P57
+2024-11-04 11:01:38,540 - INFO - Response: I think it is Gerd Oswald.
+2024-11-04 11:02:11,198 - INFO - Received message: Who is the director of The Longest Day
+2024-11-04 11:02:11,198 - INFO - Movie: The Longest Day, Relation: director
+2024-11-04 11:02:11,198 - INFO - Movie: Q468484, Relation: P57
+2024-11-04 11:02:11,217 - INFO - Response: I think that the director is Gerd Oswald for The Longest Day.
+2024-11-04 11:02:31,602 - INFO - Received message: What is the genre of Shoplifters
+2024-11-04 11:02:31,603 - INFO - Movie: Shoplifters, Relation: genre
+2024-11-04 11:02:31,603 - INFO - Movie: Q48765577, Relation: P136
+2024-11-04 11:02:31,622 - INFO - Response: As far as I know, it is drama.
+2024-11-04 11:02:49,954 - INFO - Received message: What do you think of the genre of Shoplifters
+2024-11-04 11:02:49,955 - INFO - Movie: Shoplifters, Relation: genre
+2024-11-04 11:02:49,955 - INFO - Movie: Q48765577, Relation: P136
+2024-11-04 11:02:49,975 - INFO - Response: As far as I know, it is drama.
+2024-11-04 11:03:47,130 - INFO - Received message: Who directed The Bridge on the River Kwai?
+
+
+2024-11-04 11:03:47,161 - INFO - Movie: The Bridge on the River Kwai, Relation: director
+2024-11-04 11:03:47,161 - INFO - Movie: Q188718, Relation: P57
+2024-11-04 11:03:47,179 - INFO - Response: That is a good question, I think that the answer is David Lean.
+2024-11-04 11:04:01,427 - INFO - Received message: Hi
+2024-11-04 11:04:01,436 - INFO - Response: Hello! Nice to have you here. I can answer multiple questions regarding movies. Let's start!
+2024-11-04 11:04:17,750 - INFO - Received message: How are you?
+2024-11-04 11:04:18,409 - INFO - Response: I could not find any entity in your message, please try again and reformulate.
+2024-11-04 11:05:29,856 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+
+
+2024-11-04 11:05:29,857 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 11:05:29,857 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 11:05:29,940 - INFO - Response: I think it is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 11:05:42,205 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+
+
+2024-11-04 11:05:42,206 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 11:05:42,206 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 11:05:42,285 - INFO - Response: That is a good question, I think that the answer is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 11:05:46,385 - INFO - Received message: Who is the screenwriter of The Masked Gang: Cyprus?
+
+
+2024-11-04 11:05:46,385 - INFO - Movie: The Masked Gang: Cyprus, Relation: screenwriter
+2024-11-04 11:05:46,385 - INFO - Movie: Q7750525, Relation: P58
+2024-11-04 11:05:46,464 - INFO - Response: I would say that it is Cengiz Küçükayvaz. (Embedding Answer)
+2024-11-04 11:05:54,629 - INFO - Received message: What is the MPAA film rating of Weathering with You?
+
+
+2024-11-04 11:05:54,629 - INFO - Movie: Weathering with You, Relation: MPAA film rating
+2024-11-04 11:05:54,630 - INFO - Movie: Q59692464, Relation: P1657
+2024-11-04 11:05:54,648 - INFO - Response: The MPAA film rating is NC-17 for Weathering with You.
+2024-11-04 11:06:08,924 - INFO - Received message: What is the genre of Good Neighbors?
+
+
+2024-11-04 11:06:08,925 - INFO - Movie: Good Neighbors, Relation: genre
+2024-11-04 11:06:08,925 - INFO - Movie: Q3110682, Relation: P136
+2024-11-04 11:06:08,943 - INFO - Response: I'm almost certain that it is art film.
+2024-11-04 11:06:15,049 - INFO - Received message: What is the genre of Good Neighbors?
+
+
+2024-11-04 11:06:15,050 - INFO - Movie: Good Neighbors, Relation: genre
+2024-11-04 11:06:15,050 - INFO - Movie: Q3110682, Relation: P136
+2024-11-04 11:06:15,069 - INFO - Response: The genre is art film for Good Neighbors.
+2024-11-04 11:10:12,562 - INFO - Received message: Do you know Shoplifters? What genre does this movie have?
+2024-11-04 11:10:12,563 - INFO - Movie: Shoplifters, Relation: genre
+2024-11-04 11:10:12,563 - INFO - Movie: Q48765577, Relation: P136
+2024-11-04 11:10:12,583 - INFO - Response: I would say that it is drama.
