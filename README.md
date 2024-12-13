@@ -1,6 +1,8 @@
 # 24HS Advanced Topics in Artificial Intelligence (ATAI)
 This repository includes the semester project of the course ATAI ([source repository](https://github.com/bauerDOTuzh/atai_project)). The code is written in `Python v3.12`.
 
+Main packages: `speakeasypy`, `spacy`, `sentence_transformers`, `nltk`, `ollama`, `FastAPI`, `rdflib`, `rapidfuzz`, `torch`, `fuzzywuzzy`, `transformers`, `numpy`, `asyncio`, `logging`, `pandas`, `json`, `regex`
+
 ## How To Run
 Login on Speakeasy: https://speakeasy.ifi.uzh.ch/
 
